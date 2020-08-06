@@ -1,0 +1,93 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DragonSurge",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_surge"
+    },
+    {
+      "name": "AtherArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ather_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AtherArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ather_armor_helmet_recipe"
+    },
+    {
+      "name": "AtherArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ather_armor_body_recipe"
+    },
+    {
+      "name": "AtherArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ather_armor_leggings_recipe"
+    },
+    {
+      "name": "AtherArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ather_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ather_the_dragon_surge.ather_armor_boots": "Ather Boots",
+      "item.ather_the_dragon_surge.ather_armor_helmet": "Ather Helmet",
+      "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
+      "item.ather_the_dragon_surge.ather_armor_leggings": "Ather Leggings",
+      "item.ather_the_dragon_surge.dragon_surge": "Surge Lighter"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "ather_the_dragon_surge",
+    "modName": "Ather: The Dragon Surge",
+    "version": "1.0.0",
+    "author": "batza, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.atherthedragonsurge",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

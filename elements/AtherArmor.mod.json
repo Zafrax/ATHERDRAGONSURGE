@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "fefefe",
+    "enableBody": true,
+    "textureBody": "ree",
+    "enableLeggings": true,
+    "textureLeggings": "rerefe",
+    "enableBoots": true,
+    "textureBoots": "d8fr6pe-2119e7c2-ace4-4d04-9ce3-5aac184046c6_1",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "ather",
+    "helmetName": "Ather Helmet",
+    "bodyName": "Ather Chestplate",
+    "leggingsName": "Ather Leggings",
+    "bootsName": "Ather Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 38,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 5,
+    "enchantability": 23,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": "entity.zombie_villager.hurt"
+    },
+    "repairItems": [
+      {
+        "value": "Items.REDSTONE"
+      }
+    ]
+  }
+}

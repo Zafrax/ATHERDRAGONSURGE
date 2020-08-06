@@ -1,0 +1,39 @@
+{
+  "group": "ather_the_dragon_surge",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sunflower"
+    },
+    "2": {
+      "item": "minecraft:sunflower"
+    },
+    "3": {
+      "item": "minecraft:sunflower"
+    },
+    "4": {
+      "item": "minecraft:sunflower"
+    },
+    "5": {
+      "item": "minecraft:sunflower"
+    },
+    "6": {
+      "item": "minecraft:sunflower"
+    },
+    "7": {
+      "item": "minecraft:sunflower"
+    },
+    "8": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "result": {
+    "item": "ather_the_dragon_surge:ather_armor_chestplate",
+    "count": 1
+  }
+}

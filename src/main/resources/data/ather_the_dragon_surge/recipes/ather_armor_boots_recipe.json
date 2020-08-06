@@ -1,0 +1,26 @@
+{
+  "group": "ather_the_dragon_surge",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sunflower"
+    },
+    "2": {
+      "item": "minecraft:sunflower"
+    },
+    "3": {
+      "item": "minecraft:sunflower"
+    },
+    "5": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "result": {
+    "item": "ather_the_dragon_surge:ather_armor_boots",
+    "count": 1
+  }
+}

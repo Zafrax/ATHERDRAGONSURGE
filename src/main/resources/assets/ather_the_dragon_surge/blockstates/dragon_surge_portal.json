@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ather_the_dragon_surge:block/dragon_surge_portal_ew"
+    },
+    "axis=x": {
+      "model": "ather_the_dragon_surge:block/dragon_surge_portal_ns"
+    }
+  }
+}
