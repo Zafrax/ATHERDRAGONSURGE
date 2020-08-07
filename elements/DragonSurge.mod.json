@@ -14,7 +14,7 @@
     },
     "igniterName": "Surge Lighter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AtherTheDragonSurge"
     },
     "texture": "unnamed_1",
     "portalTexture": "unnamed",
@@ -22,28 +22,21 @@
     "biomesInDimension": [
       {
         "value": "nether"
+      },
+      {
+        "value": "plains"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.RED_NETHER_BRICK"
+      "value": "CUSTOM:Block1"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_LAVA"
     },
     "airColor": {
-      "value": -4138753,
-      "frgbvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "fvalue": [
-        0.753,
-        0.847,
-        1.0
-      ],
-      "falpha": 1.0
+      "value": -65485,
+      "falpha": 0.0
     },
     "canRespawnHere": true,
     "hasFog": true,
