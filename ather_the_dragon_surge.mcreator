@@ -78,6 +78,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ather_the_dragon_surge"
+    },
+    {
+      "name": "Tetssturcture1",
+      "type": "structure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetssturcture_1"
     }
   ],
   "variable_elements": [],
