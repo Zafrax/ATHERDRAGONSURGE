@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ather_the_dragon_surge:blocks/pixilart-drawing_1",
+    "up": "ather_the_dragon_surge:blocks/pixilart-drawing_1",
+    "north": "ather_the_dragon_surge:blocks/unknown",
+    "east": "ather_the_dragon_surge:blocks/unknown",
+    "south": "ather_the_dragon_surge:blocks/unknown",
+    "west": "ather_the_dragon_surge:blocks/unknown",
+    "particle": "ather_the_dragon_surge:blocks/pixilart-drawing_1"
+  }
+}
