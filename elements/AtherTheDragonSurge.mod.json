@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Ather The Dragon Surge",
+    "icon": {
+      "value": "CUSTOM:TestBlock1"
+    },
+    "showSearch": false
+  }
+}
