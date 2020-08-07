@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "ather_the_dragon_surge:blocks/dragonnite_ore",
-    "particle": "ather_the_dragon_surge:blocks/dragonnite_ore"
+    "down": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "up": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "north": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "east": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "south": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "west": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487",
+    "particle": "ather_the_dragon_surge:blocks/redstone-ore-block-e1566147445487"
   }
 }
