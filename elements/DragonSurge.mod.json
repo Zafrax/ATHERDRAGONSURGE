@@ -22,9 +22,12 @@
     "biomesInDimension": [
       {
         "value": "nether"
+      },
+      {
+        "value": "plains"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "CUSTOM:Block1"
     },
