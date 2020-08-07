@@ -4,13 +4,13 @@ package net.mcreator.atherthedragonsurge.block;
 import net.minecraft.block.material.Material;
 
 @AtherTheDragonSurgeModElements.ModElement.Tag
-public class Testblock2Block extends AtherTheDragonSurgeModElements.ModElement {
+public class DragonniteOreBlock extends AtherTheDragonSurgeModElements.ModElement {
 
-	@ObjectHolder("ather_the_dragon_surge:testblock_2")
+	@ObjectHolder("ather_the_dragon_surge:dragonnite_ore")
 	public static final Block block = null;
 
-	public Testblock2Block(AtherTheDragonSurgeModElements instance) {
-		super(instance, 10);
+	public DragonniteOreBlock(AtherTheDragonSurgeModElements instance) {
+		super(instance, 11);
 
 	}
 
@@ -26,9 +26,10 @@ public class Testblock2Block extends AtherTheDragonSurgeModElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(9f, 12.041123426403463f).lightValue(0)
+							.harvestLevel(6).harvestTool(ToolType.PICKAXE));
 
-			setRegistryName("testblock_2");
+			setRegistryName("dragonnite_ore");
 		}
 
 		@Override
@@ -37,7 +38,7 @@ public class Testblock2Block extends AtherTheDragonSurgeModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(DragonniteIngotItem.block, (int) (1)));
 		}
 
 	}
@@ -52,7 +53,7 @@ public class Testblock2Block extends AtherTheDragonSurgeModElements.ModElement {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
 
-					if (dimensionType == DragonSurgeDimension.type)
+					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 
 					if (!dimensionCriteria)
@@ -60,12 +61,12 @@ public class Testblock2Block extends AtherTheDragonSurgeModElements.ModElement {
 
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("testblock_2", "testblock_2", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("dragonnite_ore", "dragonnite_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 64))));
+			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 1, 1, 23))));
 		}
 	}
 

@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "pixilart-drawing_1",
-    "textureTop": "pixilart-drawing_1",
-    "textureLeft": "unknown",
-    "textureFront": "unknown",
-    "textureRight": "unknown",
-    "textureBack": "unknown",
+    "texture": "redstone-ore-block-e1566147445487",
+    "textureTop": "redstone-ore-block-e1566147445487",
+    "textureLeft": "redstone-ore-block-e1566147445487",
+    "textureFront": "redstone-ore-block-e1566147445487",
+    "textureRight": "redstone-ore-block-e1566147445487",
+    "textureBack": "redstone-ore-block-e1566147445487",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,17 +22,17 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Block 1",
+    "name": "Dragonnite Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 9.0,
+    "resistance": 12.041123426403463,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AtherTheDragonSurge"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DragonniteIngot"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -59,11 +59,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 6,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -88,16 +88,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 23
   }
 }
