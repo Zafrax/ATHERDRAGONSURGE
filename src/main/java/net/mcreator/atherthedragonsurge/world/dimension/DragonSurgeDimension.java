@@ -68,6 +68,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.atherthedragonsurge.item.DragonSurgeItem;
+import net.mcreator.atherthedragonsurge.block.Block1Block;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import javax.annotation.Nullable;
@@ -733,7 +734,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 		public ChunkProviderModded(World world, BiomeProvider provider) {
 			super(world, provider, new NetherGenSettings() {
 				public BlockState getDefaultBlock() {
-					return Blocks.RED_NETHER_BRICKS.getDefaultState();
+					return Block1Block.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
