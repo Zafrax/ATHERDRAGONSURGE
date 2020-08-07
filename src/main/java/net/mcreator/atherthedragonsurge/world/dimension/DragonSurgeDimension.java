@@ -70,6 +70,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.atherthedragonsurge.item.DragonSurgeItem;
+import net.mcreator.atherthedragonsurge.block.Testblock2Block;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import javax.annotation.Nullable;
@@ -703,7 +704,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 
 		@Override
 		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
-			return SleepResult.DENY;
+			return SleepResult.ALLOW;
 		}
 
 		@Nullable
@@ -736,7 +737,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return Block1Item.block.getDefaultState();
+					return Testblock2Block.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -768,7 +769,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				for (Biome biome : this.biomes) {
 					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 						{
-							carvableBlocks = ImmutableSet.of(Block1Item.block.getDefaultState().getBlock(),
+							carvableBlocks = ImmutableSet.of(Testblock2Block.block.getDefaultState().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 						}
