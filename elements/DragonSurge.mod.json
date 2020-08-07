@@ -43,8 +43,8 @@
     "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": true,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": false
+    "imitateOverworldBehaviour": true
   }
 }
