@@ -671,7 +671,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
-			return new Vec3d(0.752941176471, 0.847058823529, 1);
+			return new Vec3d(1, 0, 0.2);
 		}
 
 		@Override
