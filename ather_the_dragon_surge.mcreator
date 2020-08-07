@@ -150,6 +150,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dragonnite_ore_block_recipe"
+    },
+    {
+      "name": "Dragonspwan",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonspwan"
     }
   ],
   "variable_elements": [],

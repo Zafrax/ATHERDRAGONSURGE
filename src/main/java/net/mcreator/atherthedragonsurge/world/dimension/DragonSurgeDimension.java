@@ -122,8 +122,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("nether")),
-				ForgeRegistries.BIOMES.getValue(new ResourceLocation("plains")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("ather_the_dragon_surge:dragonspwan")),};
 	}
 
 	@Override

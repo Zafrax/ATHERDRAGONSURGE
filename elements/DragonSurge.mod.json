@@ -21,10 +21,7 @@
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "nether"
-      },
-      {
-        "value": "plains"
+        "value": "CUSTOM:Dragonspwan"
       }
     ],
     "worldGenType": "Normal world gen",
