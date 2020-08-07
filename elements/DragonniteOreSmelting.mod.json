@@ -2,8 +2,8 @@
   "_fv": 10,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 2.0999999999999996,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
@@ -19,28 +19,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
-      },
-      {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AtherArmor.boots"
+      "value": ""
     },
-    "name": "ather_armor_boots_recipe",
+    "smeltingInputStack": {
+      "value": "CUSTOM:DragonniteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:DragonniteIngot"
+    },
+    "name": "dragonnite_ore_smelting",
     "namespace": "mod"
   }
 }

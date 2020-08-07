@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ather_the_dragon_surge:blocks/dragonnite_ore",
+    "particle": "ather_the_dragon_surge:blocks/dragonnite_ore"
+  }
+}

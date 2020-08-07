@@ -10,19 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
         "value": "CUSTOM:DragonniteIngot"
@@ -31,16 +22,25 @@
         "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:DragonniteIngot"
+      },
+      {
+        "value": "CUSTOM:DragonniteIngot"
+      },
+      {
+        "value": "CUSTOM:DragonniteIngot"
+      },
+      {
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
         "value": "CUSTOM:DragonniteIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AtherArmor.boots"
+      "value": "CUSTOM:DragonniteOreBlock"
     },
-    "name": "ather_armor_boots_recipe",
+    "name": "dragonnite_ore_block_recipe",
     "namespace": "mod"
   }
 }

@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:DragonniteIngot"
       }
     ],
     "recipeReturnStack": {

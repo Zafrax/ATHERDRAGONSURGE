@@ -3,8 +3,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5",
-    "6 8"
+    "345",
+    "678"
   ],
   "key": {
     "0": {
@@ -19,10 +19,16 @@
     "3": {
       "item": "ather_the_dragon_surge:dragonnite_ingot"
     },
+    "4": {
+      "item": "ather_the_dragon_surge:dragonnite_ingot"
+    },
     "5": {
       "item": "ather_the_dragon_surge:dragonnite_ingot"
     },
     "6": {
+      "item": "ather_the_dragon_surge:dragonnite_ingot"
+    },
+    "7": {
       "item": "ather_the_dragon_surge:dragonnite_ingot"
     },
     "8": {
@@ -30,7 +36,7 @@
     }
   },
   "result": {
-    "item": "ather_the_dragon_surge:ather_armor_leggings",
+    "item": "ather_the_dragon_surge:dragonnite_ore_block",
     "count": 1
   }
 }

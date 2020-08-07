@@ -87,6 +87,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tetssturcture_1"
+    },
+    {
+      "name": "DragonniteIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_ingot"
+    },
+    {
+      "name": "DragonniteOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_ore"
+    },
+    {
+      "name": "DragonniteOreBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_ore_block"
+    },
+    {
+      "name": "DragonniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_ore_block_recipe"
+    },
+    {
+      "name": "DragonniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_block_ore_recipe"
+    },
+    {
+      "name": "DragonniteOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -97,9 +151,12 @@
       "block.ather_the_dragon_surge.test_block_1": "Test Block 1",
       "item.ather_the_dragon_surge.ather_armor_helmet": "Ather Helmet",
       "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
+      "block.ather_the_dragon_surge.dragonnite_ore": "Dragonnite Ore",
       "item.ather_the_dragon_surge.ather_armor_leggings": "Ather Leggings",
+      "item.ather_the_dragon_surge.dragonnite_ingot": "Dragonnite",
       "item.ather_the_dragon_surge.dragon_surge": "Surge Lighter",
-      "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge"
+      "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge",
+      "block.ather_the_dragon_surge.dragonnite_ore_block": "Block of Dragonnite"
     }
   },
   "workspaceSettings": {

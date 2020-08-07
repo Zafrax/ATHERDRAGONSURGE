@@ -3,7 +3,10 @@
   "block.ather_the_dragon_surge.test_block_1": "Test Block 1",
   "item.ather_the_dragon_surge.ather_armor_helmet": "Ather Helmet",
   "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
+  "block.ather_the_dragon_surge.dragonnite_ore": "Dragonnite Ore",
   "item.ather_the_dragon_surge.ather_armor_leggings": "Ather Leggings",
+  "item.ather_the_dragon_surge.dragonnite_ingot": "Dragonnite",
   "item.ather_the_dragon_surge.dragon_surge": "Surge Lighter",
-  "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge"
+  "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge",
+  "block.ather_the_dragon_surge.dragonnite_ore_block": "Block of Dragonnite"
 }

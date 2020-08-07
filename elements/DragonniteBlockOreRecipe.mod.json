@@ -5,9 +5,9 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DragonniteOreBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
-      },
-      {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:DragonniteIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AtherArmor.boots"
+      "value": "CUSTOM:DragonniteIngot"
     },
-    "name": "ather_armor_boots_recipe",
+    "name": "dragonnite_block_ore_recipe",
     "namespace": "mod"
   }
 }
