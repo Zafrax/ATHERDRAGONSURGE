@@ -53,6 +53,12 @@ public class TestBlock1Block extends AtherTheDragonSurgeModElements.ModElement {
 			list.add(new StringTextComponent("Custom"));
 		}
 
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public boolean isEmissiveRendering(BlockState blockState) {
+			return true;
+		}
+
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
