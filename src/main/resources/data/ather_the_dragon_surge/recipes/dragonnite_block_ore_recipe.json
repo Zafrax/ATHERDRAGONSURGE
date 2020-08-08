@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ather_the_dragon_surge:unknown_element"
+      "item": "ather_the_dragon_surge:dragonnite_ore_block"
     }
   ],
   "result": {

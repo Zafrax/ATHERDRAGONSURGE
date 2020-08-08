@@ -158,7 +158,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dragonspwan"
+      "registry_name": "dragonspawn"
     },
     {
       "name": "DragonnitePickaxe",
@@ -249,6 +249,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dragonnite_hoe_recipe"
+    },
+    {
+      "name": "DragonNiteDirt",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_nite_dirt"
+    },
+    {
+      "name": "DragonNiteCobblestone",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_nite_cobblestone"
     }
   ],
   "variable_elements": [],
@@ -262,11 +280,13 @@
       "item.ather_the_dragon_surge.ather_armor_helmet": "Ather Helmet",
       "block.ather_the_dragon_surge.dragonnite_ore": "Dragonnite Ore",
       "item.ather_the_dragon_surge.dragonnite_hoe": "Dragonnite Hoe",
+      "block.ather_the_dragon_surge.dragon_nite_cobblestone": "DragonNite Cobblestone",
       "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge",
       "block.ather_the_dragon_surge.dragonnite_ore_block": "Block of Dragonnite",
       "item.ather_the_dragon_surge.dragonnite_pickaxe": "Dragonnite Pickaxe",
       "item.ather_the_dragon_surge.ather_armor_boots": "Ather Boots",
-      "block.ather_the_dragon_surge.testblock_2": "Testblock 2",
+      "block.ather_the_dragon_surge.testblock_2": "DragonNite Grass Block",
+      "block.ather_the_dragon_surge.dragon_nite_dirt": "DragonNite Dirt",
       "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
       "item.ather_the_dragon_surge.dragonnite_axe": "Dragonnite Axe",
       "item.ather_the_dragon_surge.ather_armor_leggings": "Ather Leggings",

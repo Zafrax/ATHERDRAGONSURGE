@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "pixilart-drawing_1",
-    "textureTop": "pixilart-drawing_1",
-    "textureLeft": "pixilart-drawing_2",
-    "textureFront": "pixilart-drawing_2",
-    "textureRight": "pixilart-drawing_2",
-    "textureBack": "pixilart-drawing_2",
+    "texture": "unnamed_3",
+    "textureTop": "unnamed_3",
+    "textureLeft": "unnamed_3",
+    "textureFront": "unnamed_3",
+    "textureRight": "unnamed_3",
+    "textureBack": "unnamed_3",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,7 +22,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "DragonNite Grass Block",
+    "name": "DragonNite Dirt",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -30,7 +30,7 @@
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -41,7 +41,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "GRASS"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -88,15 +88,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:DragonSurge"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

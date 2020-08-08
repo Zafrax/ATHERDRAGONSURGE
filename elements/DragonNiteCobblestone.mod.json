@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "pixilart-drawing_1",
-    "textureTop": "pixilart-drawing_1",
-    "textureLeft": "pixilart-drawing_2",
-    "textureFront": "pixilart-drawing_2",
-    "textureRight": "pixilart-drawing_2",
-    "textureBack": "pixilart-drawing_2",
+    "texture": "unnamed_4",
+    "textureTop": "unnamed_4",
+    "textureLeft": "unnamed_4",
+    "textureFront": "unnamed_4",
+    "textureRight": "unnamed_4",
+    "textureBack": "unnamed_4",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,15 +22,17 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "DragonNite Grass Block",
-    "specialInfo": [],
+    "name": "DragonNite Cobblestone",
+    "specialInfo": [
+      "Cobblestone for DragonSurge World"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -41,7 +43,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "GRASS"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,7 +61,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -91,15 +93,19 @@
     "spawnWorldTypes": [
       "CUSTOM:DragonSurge"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Dragonspwan"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:DragonNiteDirt"
       }
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 70
   }
 }

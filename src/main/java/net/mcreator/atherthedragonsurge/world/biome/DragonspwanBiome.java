@@ -3,7 +3,6 @@ package net.mcreator.atherthedragonsurge.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -17,16 +16,18 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 
 import net.mcreator.atherthedragonsurge.block.Testblock2Block;
-import net.mcreator.atherthedragonsurge.block.DragonniteOreBlock;
+import net.mcreator.atherthedragonsurge.block.DragonNiteDirtBlock;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import com.google.common.collect.ImmutableList;
 
 @AtherTheDragonSurgeModElements.ModElement.Tag
 public class DragonspwanBiome extends AtherTheDragonSurgeModElements.ModElement {
-	@ObjectHolder("ather_the_dragon_surge:dragonspwan")
+	@ObjectHolder("ather_the_dragon_surge:dragonspawn")
 	public static final CustomBiome biome = null;
 	public DragonspwanBiome(AtherTheDragonSurgeModElements instance) {
 		super(instance, 16);
@@ -39,16 +40,14 @@ public class DragonspwanBiome extends AtherTheDragonSurgeModElements.ModElement 
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE).waterColor(-10027213).waterFogColor(-10027213)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Testblock2Block.block.getDefaultState(),
-							DragonniteOreBlock.block.getDefaultState(), DragonniteOreBlock.block.getDefaultState())));
-			setRegistryName("dragonspwan");
+							DragonNiteDirtBlock.block.getDefaultState(), DragonNiteDirtBlock.block.getDefaultState())));
+			setRegistryName("dragonspawn");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
@@ -64,6 +63,7 @@ public class DragonspwanBiome extends AtherTheDragonSurgeModElements.ModElement 
 											Feature.FANCY_TREE.withConfiguration(DefaultBiomeFeatures.field_230131_m_).withChance(0.1F)),
 									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.field_230132_o_)))
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.FOX, 20, 1, 500));
 		}
 
 		@OnlyIn(Dist.CLIENT)

@@ -70,8 +70,8 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.atherthedragonsurge.item.DragonSurgeItem;
-import net.mcreator.atherthedragonsurge.block.Testblock2Block;
 import net.mcreator.atherthedragonsurge.block.TestBlock1Block;
+import net.mcreator.atherthedragonsurge.block.DragonNiteDirtBlock;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import javax.annotation.Nullable;
@@ -123,7 +123,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("ather_the_dragon_surge:dragonspwan")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("ather_the_dragon_surge:dragonspawn")),};
 	}
 
 	@Override
@@ -719,7 +719,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 
 		@Override
 		public boolean doesWaterVaporize() {
-			return true;
+			return false;
 		}
 
 		@Override /**
@@ -737,7 +737,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return Testblock2Block.block.getDefaultState();
+					return DragonNiteDirtBlock.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -769,7 +769,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				for (Biome biome : this.biomes) {
 					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 						{
-							carvableBlocks = ImmutableSet.of(Testblock2Block.block.getDefaultState().getBlock(),
+							carvableBlocks = ImmutableSet.of(DragonNiteDirtBlock.block.getDefaultState().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 						}

@@ -6,7 +6,7 @@
       "value": "CUSTOM:Testblock2"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:DragonniteOre"
+      "value": "CUSTOM:DragonNiteDirt"
     },
     "generateLakes": false,
     "treeType": 0,
@@ -50,7 +50,7 @@
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 10,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
@@ -58,6 +58,16 @@
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 500,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ather_the_dragon_surge:blocks/unnamed_3",
+    "up": "ather_the_dragon_surge:blocks/unnamed_3",
+    "north": "ather_the_dragon_surge:blocks/unnamed_3",
+    "east": "ather_the_dragon_surge:blocks/unnamed_3",
+    "south": "ather_the_dragon_surge:blocks/unnamed_3",
+    "west": "ather_the_dragon_surge:blocks/unnamed_3",
+    "particle": "ather_the_dragon_surge:blocks/unnamed_3"
+  }
+}
