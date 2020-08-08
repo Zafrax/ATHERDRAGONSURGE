@@ -8,17 +8,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 
 import net.mcreator.atherthedragonsurge.world.dimension.DragonSurgeDimension;
-import net.mcreator.atherthedragonsurge.itemgroup.AtherTheDragonSurgeItemGroup;
 
 public class DragonSurgeItem extends Item {
 	@ObjectHolder("ather_the_dragon_surge:dragon_surge")
 	public static final Item block = null;
 	public DragonSurgeItem() {
-		super(new Item.Properties().group(AtherTheDragonSurgeItemGroup.tab).maxDamage(64));
+		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
 	}
 
 	@Override

@@ -71,6 +71,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.atherthedragonsurge.item.DragonSurgeItem;
 import net.mcreator.atherthedragonsurge.block.Testblock2Block;
+import net.mcreator.atherthedragonsurge.block.TestBlock1Block;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import javax.annotation.Nullable;
@@ -326,12 +327,12 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				for (i = 0; i < 22; ++i) {
 					BlockPos blockpos = pos.offset(directionIn, i);
 					if (!this.func_196900_a(this.world.getBlockState(blockpos))
-							|| !(this.world.getBlockState(blockpos.down()).getBlock() == Blocks.REDSTONE_BLOCK.getDefaultState().getBlock())) {
+							|| !(this.world.getBlockState(blockpos.down()).getBlock() == TestBlock1Block.block.getDefaultState().getBlock())) {
 						break;
 					}
 				}
 				BlockPos framePos = pos.offset(directionIn, i);
-				return (this.world.getBlockState(framePos).getBlock() == Blocks.REDSTONE_BLOCK.getDefaultState().getBlock()) ? i : 0;
+				return (this.world.getBlockState(framePos).getBlock() == TestBlock1Block.block.getDefaultState().getBlock()) ? i : 0;
 			}
 
 			public int getHeight() {
@@ -356,12 +357,12 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 						}
 						if (i == 0) {
 							BlockPos framePos = blockpos.offset(this.leftDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == Blocks.REDSTONE_BLOCK.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == TestBlock1Block.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						} else if (i == this.width - 1) {
 							BlockPos framePos = blockpos.offset(this.rightDir);
-							if (!(this.world.getBlockState(framePos).getBlock() == Blocks.REDSTONE_BLOCK.getDefaultState().getBlock())) {
+							if (!(this.world.getBlockState(framePos).getBlock() == TestBlock1Block.block.getDefaultState().getBlock())) {
 								break label56;
 							}
 						}
@@ -369,7 +370,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				}
 				for (int j = 0; j < this.width; ++j) {
 					BlockPos framePos = this.bottomLeft.offset(this.rightDir, j).up(this.height);
-					if (!(this.world.getBlockState(framePos).getBlock() == Blocks.REDSTONE_BLOCK.getDefaultState().getBlock())) {
+					if (!(this.world.getBlockState(framePos).getBlock() == TestBlock1Block.block.getDefaultState().getBlock())) {
 						this.height = 0;
 						break;
 					}
@@ -594,7 +595,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 							boolean flag = i9 < 0;
 							blockpos$mutable.setPos(l9, j10, l10);
 							this.world.setBlockState(blockpos$mutable,
-									flag ? Blocks.REDSTONE_BLOCK.getDefaultState().getBlock().getDefaultState() : Blocks.AIR.getDefaultState());
+									flag ? TestBlock1Block.block.getDefaultState().getBlock().getDefaultState() : Blocks.AIR.getDefaultState());
 						}
 					}
 				}
@@ -603,7 +604,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				for (int j8 = -1; j8 < 4; ++j8) {
 					if (k7 == -1 || k7 == 2 || j8 == -1 || j8 == 3) {
 						blockpos$mutable.setPos(i6 + k7 * l6, k2 + j8, k6 + k7 * i3);
-						this.world.setBlockState(blockpos$mutable, Blocks.REDSTONE_BLOCK.getDefaultState().getBlock().getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutable, TestBlock1Block.block.getDefaultState().getBlock().getDefaultState(), 3);
 					}
 				}
 			}

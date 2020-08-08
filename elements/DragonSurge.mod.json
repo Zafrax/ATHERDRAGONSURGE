@@ -3,7 +3,7 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": "Blocks.REDSTONE_BLOCK"
+      "value": "CUSTOM:TestBlock1"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -14,10 +14,10 @@
     },
     "igniterName": "Surge Lighter",
     "igniterTab": {
-      "value": "CUSTOM:AtherTheDragonSurge"
+      "value": "TOOLS"
     },
     "texture": "unnamed_1",
-    "portalTexture": "unnamed",
+    "portalTexture": "e28ba4f95b274df10917e854b5c5fad2",
     "enablePortal": true,
     "biomesInDimension": [
       {
