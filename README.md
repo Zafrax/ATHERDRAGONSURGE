@@ -1,5 +1,4 @@
 # ATHERDRAGONSURGE
-Version Alpha 1.0
 1: Fixed a few bugs 
 2: Finished dragnite set
 
