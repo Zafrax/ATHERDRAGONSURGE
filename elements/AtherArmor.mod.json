@@ -46,11 +46,11 @@
     "enchantability": 23,
     "toughness": 4.0,
     "equipSound": {
-      "value": "entity.zombie_villager.hurt"
+      "value": ""
     },
     "repairItems": [
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:DragonniteIngot"
       }
     ]
   }

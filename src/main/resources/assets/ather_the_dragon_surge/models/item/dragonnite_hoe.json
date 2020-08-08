@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ather_the_dragon_surge:items/dragonnite_hoe"
+  }
+}

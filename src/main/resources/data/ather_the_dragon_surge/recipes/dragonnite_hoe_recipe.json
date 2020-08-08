@@ -1,0 +1,27 @@
+{
+  "group": "ather_the_dragon_surge",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ather_the_dragon_surge:dragonnite_ingot"
+    },
+    "1": {
+      "item": "ather_the_dragon_surge:dragonnite_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ather_the_dragon_surge:dragonnite_hoe",
+    "count": 1
+  }
+}

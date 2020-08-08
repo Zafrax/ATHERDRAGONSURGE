@@ -159,21 +159,116 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dragonspwan"
+    },
+    {
+      "name": "DragonnitePickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_pickaxe"
+    },
+    {
+      "name": "DragonniteAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_axe"
+    },
+    {
+      "name": "DragonniteSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_sword"
+    },
+    {
+      "name": "DragonniteShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_shovel"
+    },
+    {
+      "name": "DragonniteHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_hoe"
+    },
+    {
+      "name": "DragonnitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_pickaxe_recipe"
+    },
+    {
+      "name": "DragonniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_axe_recipe"
+    },
+    {
+      "name": "DragonniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_sword_recipe"
+    },
+    {
+      "name": "DragonniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_shovel_recipe"
+    },
+    {
+      "name": "DragonniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonnite_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ather_the_dragon_surge.dragonnite_shovel": "Dragonnite Shovel",
       "block.ather_the_dragon_surge.block_1": "Block 1",
       "block.ather_the_dragon_surge.test_block_1": "Test Block 1",
+      "item.ather_the_dragon_surge.dragonnite_sword": "Dragonnite Sword",
       "item.ather_the_dragon_surge.ather_armor_helmet": "Ather Helmet",
       "block.ather_the_dragon_surge.dragonnite_ore": "Dragonnite Ore",
+      "item.ather_the_dragon_surge.dragonnite_hoe": "Dragonnite Hoe",
       "itemGroup.tabather_the_dragon_surge": "Ather The Dragon Surge",
       "block.ather_the_dragon_surge.dragonnite_ore_block": "Block of Dragonnite",
+      "item.ather_the_dragon_surge.dragonnite_pickaxe": "Dragonnite Pickaxe",
       "item.ather_the_dragon_surge.ather_armor_boots": "Ather Boots",
       "block.ather_the_dragon_surge.testblock_2": "Testblock 2",
       "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
+      "item.ather_the_dragon_surge.dragonnite_axe": "Dragonnite Axe",
       "item.ather_the_dragon_surge.ather_armor_leggings": "Ather Leggings",
       "item.ather_the_dragon_surge.dragonnite_ingot": "Dragonnite",
       "item.ather_the_dragon_surge.dragon_surge": "Surge Lighter"
