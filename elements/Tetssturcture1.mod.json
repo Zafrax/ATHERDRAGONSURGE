@@ -2,10 +2,10 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "teststructur_1",
-    "randomlyRotateStructure": true,
+    "structure": "maison1-1558119604",
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 1000000,
+    "spawnProbability": 100000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

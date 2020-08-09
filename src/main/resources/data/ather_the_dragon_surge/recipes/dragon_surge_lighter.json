@@ -1,0 +1,23 @@
+{
+  "group": "dragonsurgelighter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "ather_the_dragon_surge:test_block_1"
+    },
+    "3": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "ather_the_dragon_surge:dragon_surge",
+    "count": 1
+  }
+}
