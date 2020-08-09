@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "up": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "north": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "east": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "south": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "west": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff",
+    "particle": "ather_the_dragon_surge:blocks/16e30e0ae4a63fd8df53ec57df5a89ff"
+  }
+}

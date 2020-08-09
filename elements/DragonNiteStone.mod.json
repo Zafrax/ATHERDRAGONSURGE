@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "unnamed_3",
-    "textureTop": "unnamed_3",
-    "textureLeft": "unnamed_3",
-    "textureFront": "unnamed_3",
-    "textureRight": "unnamed_3",
-    "textureBack": "unnamed_3",
+    "texture": "16e30e0ae4a63fd8df53ec57df5a89ff",
+    "textureTop": "16e30e0ae4a63fd8df53ec57df5a89ff",
+    "textureLeft": "16e30e0ae4a63fd8df53ec57df5a89ff",
+    "textureFront": "16e30e0ae4a63fd8df53ec57df5a89ff",
+    "textureRight": "16e30e0ae4a63fd8df53ec57df5a89ff",
+    "textureBack": "16e30e0ae4a63fd8df53ec57df5a89ff",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,7 +22,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "DragonNite Dirt",
+    "name": "Dragon Nite Stone",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -30,9 +30,9 @@
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DragonNiteCobblestone"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -41,7 +41,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -59,11 +59,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -93,7 +93,7 @@
     "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 70,
-    "maxGenerateHeight": 110
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }
