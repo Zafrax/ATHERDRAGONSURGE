@@ -5,7 +5,7 @@
     "structure": "maison1-1558119604",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 100000,
+    "spawnProbability": 25,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

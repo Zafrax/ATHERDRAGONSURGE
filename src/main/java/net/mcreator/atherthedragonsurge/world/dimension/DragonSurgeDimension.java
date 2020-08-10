@@ -71,7 +71,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.atherthedragonsurge.item.DragonSurgeItem;
 import net.mcreator.atherthedragonsurge.block.TestBlock1Block;
-import net.mcreator.atherthedragonsurge.block.DragonNiteDirtBlock;
+import net.mcreator.atherthedragonsurge.block.DragonNiteStoneBlock;
 import net.mcreator.atherthedragonsurge.AtherTheDragonSurgeModElements;
 
 import javax.annotation.Nullable;
@@ -737,7 +737,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new OverworldGenSettings() {
 				public BlockState getDefaultBlock() {
-					return DragonNiteDirtBlock.block.getDefaultState();
+					return DragonNiteStoneBlock.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
@@ -769,7 +769,7 @@ public class DragonSurgeDimension extends AtherTheDragonSurgeModElements.ModElem
 				for (Biome biome : this.biomes) {
 					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
 						{
-							carvableBlocks = ImmutableSet.of(DragonNiteDirtBlock.block.getDefaultState().getBlock(),
+							carvableBlocks = ImmutableSet.of(DragonNiteStoneBlock.block.getDefaultState().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
 									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
 						}
