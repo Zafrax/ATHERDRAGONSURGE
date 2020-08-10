@@ -1,0 +1,24 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ss",
+    "customModelName": "Normal",
+    "name": "Ceral NAF",
+    "specialInfo": [
+      "(not Asbestos)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AtherTheDragonSurge"
+    },
+    "stackSize": 64,
+    "nutritionalValue": -186,
+    "saturation": 0.3,
+    "eatingSpeed": 1,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true
+  }
+}

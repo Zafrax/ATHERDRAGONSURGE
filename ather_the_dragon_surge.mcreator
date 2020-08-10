@@ -285,6 +285,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rererer"
+    },
+    {
+      "name": "DEATH",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death"
+    },
+    {
+      "name": "CeralNAF",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceral_naf"
     }
   ],
   "variable_elements": [],
@@ -304,6 +322,7 @@
       "item.ather_the_dragon_surge.dragonnite_pickaxe": "Dragonnite Pickaxe",
       "item.ather_the_dragon_surge.ather_armor_boots": "Ather Boots",
       "block.ather_the_dragon_surge.testblock_2": "DragonNite Grass Block",
+      "item.ather_the_dragon_surge.ceral_naf": "Ceral NAF",
       "block.ather_the_dragon_surge.dragon_nite_dirt": "DragonNite Dirt",
       "item.ather_the_dragon_surge.ather_armor_chestplate": "Ather Chestplate",
       "item.ather_the_dragon_surge.dragonnite_axe": "Dragonnite Axe",
